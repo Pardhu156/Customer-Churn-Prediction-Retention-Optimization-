@@ -1,0 +1,11 @@
+{
+  "registry_version": 1,
+  "status": "production",
+  "model_name": "logistic_regression",
+  "artifact_path": "../artifacts/final/logistic_regression/bundle.joblib",
+  "artifact_sha256": "b58c0be8010fdc4a6fc192e8f3c4aff54ead61acdc7913300944d6d18abac2d5",
+  "threshold": 0.35,
+  "selection_split": "validation",
+  "selection_reason": "Best validation F1 and ROC-AUC with near-best PR-AUC, no observed overfitting, and lowest operational complexity.",
+  "test_evaluated_once": true
+}
